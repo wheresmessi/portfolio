@@ -57,13 +57,12 @@ export const Hero = () => {
     whileHover={{ scale: 1.05 }}
     onClick={() => {
         const link = document.createElement('a');
-        link.href = 'src\assets\Resume.pdf'; 
+        link.href = 'public\Resume.pdf'; 
         link.download = 'Nandakumaran_Sathyan_Resume.pdf'; // Specify the file name
         link.click();
     }}
     className='px-6 py-3 border border-white/20 rounded-full font-medium hover:bg-white/10 transition-colors'
->
-    Download Resume
+>Download My CV
 </motion.button>
 
                         </div>
