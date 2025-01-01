@@ -57,7 +57,7 @@ export const Hero = () => {
     whileHover={{ scale: 1.05 }}
     onClick={() => {
         const link = document.createElement('a');
-        link.href = 'public\Resume.pdf'; 
+        link.href = '/Resume.pdf'; 
         link.download = 'Nandakumaran_Sathyan_Resume.pdf'; // Specify the file name
         link.click();
     }}
