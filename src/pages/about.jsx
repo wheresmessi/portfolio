@@ -44,7 +44,10 @@ const skills = [<br/>
                 I specialize in Artificial Intelligence, Data Science, and full-stack development. With a strong foundation in AI and machine learning, I create data-driven solutions to solve real-world problems. As a full-stack developer, I build scalable and responsive web applications using modern frameworks and technologies.
                 </p>
                 <div className='mt-4 relative border border-white/20 rounded-lg p-4 h-[350px] overflow-hidden'>
-                <img src={project1} alt="Project1" className='absolute inset-0 w-full h-full object-cover'/>
+                <a href="https://maplearningacademy.com/" target="_blank" rel="noopener noreferrer">
+  <img src={project1} alt="Project1" className="absolute inset-0 w-full h-full object-cover" />
+</a>
+
                 </div>
                 </div>
 
@@ -134,7 +137,8 @@ const skills = [<br/>
 
                 <div className='border border-white/20 rounded-lg p-6 flex flex-col justify-between'>
                     <div className='relative border border-white/20 rounded-lg p-4 h-[250px] overflow-hidden mb-5'>
-                    <img src={project2} alt="" className='absolute inset-0 w-full h-full object-cover'/>
+                    <a href="https://themindflex.in" target="_blank" rel="noopener noreferrer">
+                    <img src={project2} alt="" className='absolute inset-0 w-full h-full object-cover'/></a>
                      </div>
                     <div>
                         <h3 className='text-2xl font-bold mb-2'>05. Goals</h3>
