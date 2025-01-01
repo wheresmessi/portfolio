@@ -7,18 +7,18 @@ export const ContactMe = () => {
             <div className='max-w-[1200px] mx-auto px-4'>
                 {/* Contact Heading and Email */}
                 <div className='flex flex-col md:flex-row items-start md:items-center justify-between font-bold mb-10 text-white/50'>
-                    <div>
-                        <h2 className='text-4xl md:text-5xl font-bold mb-6 md:mb-10 text-white/50'>
-                            Get in <span className='text-gray-400'>Touch</span>
-                        </h2>
-                        <a
-                            className='text-4xl md:text-5xl font-semibold text-white underline decoration-gray-400 decoration-2
-                            underline-offset-4 hover:decoration-gray-200 transition duration-300'
-                            href="mailto:nandakumaran005@gmail.com"
-                        >
-                            nandakumaran005@gmail.com
-                        </a>
-                    </div>
+                <div>
+    <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-6 md:mb-10 text-white/50'>
+        Get in <span className='text-gray-400'>Touch</span>
+    </h2>
+    <a
+        className='text-xl sm:text-2xl md:text-4xl font-semibold text-white underline decoration-gray-400 decoration-2
+        underline-offset-4 hover:decoration-gray-200 transition duration-300'
+        href="mailto:nandakumaran005@gmail.com"
+    >
+        nandakumaran005@gmail.com
+    </a>
+</div>
 
                     {/* Phone and Address */}
                     <div className='text-white/50 mt-8 md:mt-0'>
