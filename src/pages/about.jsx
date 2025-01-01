@@ -43,12 +43,16 @@ const skills = [<br/>
                 <p className='text-white/50'>
                 I specialize in Artificial Intelligence, Data Science, and full-stack development. With a strong foundation in AI and machine learning, I create data-driven solutions to solve real-world problems. As a full-stack developer, I build scalable and responsive web applications using modern frameworks and technologies.
                 </p>
-                <div className='mt-4 relative border border-white/20 rounded-lg p-4 h-[350px] overflow-hidden'>
-                <a href="https://maplearningacademy.com/" target="_blank" rel="noopener noreferrer">
-  <img src={project1} alt="Project1" className="absolute inset-0 w-full h-full object-cover" />
-</a>
+                <div className='mt-4 relative border border-white/20 rounded-lg p-4 h-[350px] overflow-hidden group'>
+    <a href="https://maplearningacademy.com/" target="_blank" rel="noopener noreferrer">
+        <img 
+            src={project1} 
+            alt="Project1" 
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-110" 
+        />
+    </a>
+</div>
 
-                </div>
                 </div>
 
                 <div className='border border-white/20 rounded-lg p-6'>
@@ -136,10 +140,15 @@ const skills = [<br/>
                 </div>
 
                 <div className='border border-white/20 rounded-lg p-6 flex flex-col justify-between'>
-                    <div className='relative border border-white/20 rounded-lg p-4 h-[250px] overflow-hidden mb-5'>
-                    <a href="https://themindflex.in" target="_blank" rel="noopener noreferrer">
-                    <img src={project2} alt="" className='absolute inset-0 w-full h-full object-cover'/></a>
-                     </div>
+                <div className='relative border border-white/20 rounded-lg p-4 h-[250px] overflow-hidden mb-5 group'>
+    <a href="https://themindflex.in" target="_blank" rel="noopener noreferrer">
+        <img 
+            src={project2} 
+            alt="Project thumbnail" 
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
+        />
+    </a>
+</div>
                     <div>
                         <h3 className='text-2xl font-bold mb-2'>05. Goals</h3>
                         <p className='text-white/50'>
