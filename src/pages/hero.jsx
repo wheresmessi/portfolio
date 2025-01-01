@@ -54,12 +54,18 @@ export const Hero = () => {
                                 Contact Me
                             </motion.button>
                             <motion.button
-                                whileHover={{ scale: 1.05 }}
-                                onClick={() => scrollToSection('about')}
-                                className='px-6 py-3 border border-white/20 rounded-full font-medium hover:bg-white/10 transition-colors'
-                            >
-                                View Work
-                            </motion.button>
+    whileHover={{ scale: 1.05 }}
+    onClick={() => {
+        const link = document.createElement('a');
+        link.href = 'src\assets\Resume.pdf'; 
+        link.download = 'Nandakumaran_Sathyan_Resume.pdf'; // Specify the file name
+        link.click();
+    }}
+    className='px-6 py-3 border border-white/20 rounded-full font-medium hover:bg-white/10 transition-colors'
+>
+    Download Resume
+</motion.button>
+
                         </div>
                     </motion.div>
                 </div>
