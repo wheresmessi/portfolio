@@ -28,7 +28,11 @@ const skills = [<br/>
 <br />
 &nbsp;&nbsp;'Numpy',
 <br />
-&nbsp;&nbsp;'Sci-kit learn',
+&nbsp;&nbsp;'Scikit-learn',
+<br />
+&nbsp;&nbsp;'Pandas',
+<br />
+&nbsp;&nbsp;'Matplotlib'
 <br />
 ];
 </code>
@@ -72,7 +76,6 @@ const skills = [<br/>
                 <ul className='text-white/50 space-y-1 text-sm'>
                     <li>React/Next.js</li>
                     <li>Tailwind CSS</li>
-                    <li>Framer Motion</li>
                     <li>Elementor</li>
                 </ul>
                 </div>
@@ -82,7 +85,6 @@ const skills = [<br/>
                     <li>Node.JS</li>
                     <li>Python</li>
                     <li>Express.JS</li>
-                    <li>AWS</li>
                 </ul>
                 </div>
                 </div>
