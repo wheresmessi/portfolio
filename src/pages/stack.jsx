@@ -34,17 +34,63 @@ export const Stack = () => {
         {stackItems.map((item, index) => (
           <motion.div
             key={item.id}
-            className="bg-white/10 flex flex-col items-center justify-center w-[200px] h-[200px] rounded-xl p-4 shadow-lg hover:shadow-2xl transition-transform"
+            className="bg-white/10 flex flex-col items-center justify-center w-[200px] h-[200px] rounded-xl p-4 shadow-lg transition-all"
             initial="hidden"
             animate={controls}
-            variants={{
-              visible: { opacity: 1, scale: 1 },
-              hidden: { opacity: 0, scale: 0.8 },
+            whileHover={{ 
+              scale: 1.05,
+              backgroundColor: "rgba(255, 255, 255, 0.2)",
+              boxShadow: "0 8px 32px rgba(0, 0, 0, 0.2)",
+              transition: { 
+                type: "spring",
+                stiffness: 300,
+                damping: 20
+              }
             }}
-            transition={{ duration: 1.5, delay: index * 0.2 }}
+            variants={{
+              visible: { 
+                opacity: 1, 
+                scale: 1,
+                transition: {
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 12,
+                  delay: index * 0.2
+                }
+              },
+              hidden: { 
+                opacity: 0, 
+                scale: 0.8
+              },
+            }}
           >
-            <div className={`mb-4 ${item.color}`}>{item.icon}</div>
-            <p className="text-gray-100 font-medium">{item.name}</p>
+            <motion.div 
+              className={`mb-4 ${item.color}`}
+              whileHover={{ 
+                rotate: 360,
+                scale: 1.1,
+                transition: {
+                  type: "spring",
+                  stiffness: 300,
+                  damping: 15
+                }
+              }}
+            >
+              {item.icon}
+            </motion.div>
+            <motion.p 
+              className="text-gray-100 font-medium"
+              whileHover={{
+                scale: 1.05,
+                transition: {
+                  type: "spring",
+                  stiffness: 300,
+                  damping: 15
+                }
+              }}
+            >
+              {item.name}
+            </motion.p>
           </motion.div>
         ))}
       </div>

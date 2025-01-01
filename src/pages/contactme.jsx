@@ -8,7 +8,7 @@ export const ContactMe = () => {
                 {/* Contact Heading and Email */}
                 <div className='flex flex-col md:flex-row items-start md:items-center justify-between font-bold mb-10 text-white/50'>
                 <div>
-    <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-6 md:mb-10 text-white/50'>
+    <h2 className='text-4xl sm:text-5xl md:text-6xl font-bold mb-6 md:mb-10 text-white/50'>
         Get in <span className='text-gray-400'>Touch</span>
     </h2>
     <a
