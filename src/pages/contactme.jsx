@@ -11,16 +11,24 @@ export const ContactMe = () => {
     <h2 className='text-4xl sm:text-5xl md:text-6xl font-bold mb-6 md:mb-10 text-white/50'>
         Get in <span className='text-gray-400'>Touch</span>
     </h2>
+    <div className="flex flex-col gap-6">
     <a
-        className='text-xl sm:text-2xl md:text-4xl font-semibold text-white underline decoration-gray-400 decoration-2
-        underline-offset-4 hover:decoration-gray-200 transition duration-300'
+        className="text-xl sm:text-2xl md:text-4xl font-semibold text-white underline decoration-gray-400 decoration-2 underline-offset-4 hover:decoration-gray-200 transition duration-300"
         href="mailto:nandakumaran005@gmail.com"
     >
         nandakumaran005@gmail.com
     </a>
+    <a
+        className="text-xl sm:text-2xl md:text-4xl font-semibold text-white underline decoration-gray-400 decoration-2 underline-offset-4 hover:decoration-gray-200 transition duration-300"
+        href="tel:+917395959112"
+    >
+        +91 73959 59112
+    </a>
 </div>
 
-                    {/* Phone and Address */}
+</div>
+
+                    {/* Phone and Address 
                     <div className='text-white/50 mt-8 md:mt-0'>
                         <div className='mb-8'>
                             <p className='text-lg font-semibold mb-1'>Phone</p>
@@ -32,13 +40,13 @@ export const ContactMe = () => {
                                 +91 73959 59112
                             </a>
                         </div>
-                        <div className='text-lg mb-8'>
+                        {/*<div className='text-lg mb-8'>
                             <p className='font-bold'>Address</p>
                             <p>31, Surya Narayanan Nagar 1st Cross,</p>
                             <p>Thiruverkadu</p>
                             <p>Chennai</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Decorative Name in Background */}
